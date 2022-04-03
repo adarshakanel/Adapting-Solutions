@@ -1,4 +1,13 @@
-.page {
+.bg-custom {
+    background-image: linear-gradient(15deg, #0077C8 0%, #2C9FED 100%);
+}
+
+.nav.navbar-nav li a {
+    color:white !important;
+}
+
+
+/*.page {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -79,3 +88,4 @@ main {
         padding-right: 1.5rem !important;
     }
 }
+*/

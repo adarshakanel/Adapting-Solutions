@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj": {}
+    "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj": {
+    "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
+        "projectUniqueName": "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
         "projectName": "BlazorApp1.Client",
-        "projectPath": "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
+        "projectPath": "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
         "packagesPath": "C:\\Users\\jessi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Client\\obj\\",
+        "outputPath": "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jessi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
-                "projectPath": "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj"
+              "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
+                "projectPath": "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
+    "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
         "projectName": "BlazorApp1.Shared",
-        "projectPath": "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+        "projectPath": "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
         "packagesPath": "C:\\Users\\jessi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jessi\\source\\repos\\BlazorApp1\\BlazorApp1\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\jessi\\Documents\\GitHub\\Adapting-Solutions\\BlazorApp1\\BlazorApp1\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jessi\\AppData\\Roaming\\NuGet\\NuGet.Config",
