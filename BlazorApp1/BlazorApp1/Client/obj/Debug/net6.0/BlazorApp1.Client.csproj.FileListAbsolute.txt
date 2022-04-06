@@ -825,3 +825,4 @@ C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\
 C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\refint\BlazorApp1.Client.dll
 C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\BlazorApp1.Client.pdb
 C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\ref\BlazorApp1.Client.dll
+C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\scopedcss\Pages\Appointment.razor.rz.scp.css

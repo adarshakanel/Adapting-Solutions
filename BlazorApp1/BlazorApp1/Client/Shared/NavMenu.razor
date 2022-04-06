@@ -1,72 +1,29 @@
-﻿@*<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">BlazorApp1</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>*@
-
-@*<div class="top-row ps-3 navbar">
-    <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-</div>
-
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-    <nav class="flex-row">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-            </NavLink>
-        </div>
-    </nav>
-</div>*@
-
-@*<nav class="navbar navbar-expand-lg navbar-light bg-light">
+﻿<nav class="navbar navbar-expand-lg navbar-dark bg-custom">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav nav-fill w-100">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Favourites</a>
+                <NavLink class="nav-link" href="#">Favourites</NavLink>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Appointments</a>
+                <NavLink class="nav-link" href="appointment">Appointments</NavLink>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#">Homepage</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item active"> 
                 <a class="nav-link" href="#">Contact Us</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#">Mortgage Calculator</a>
             </li>
+@*                <li class="nav-item active">
+                <i class="fa fa-search"></i>
+            </li>*@
+
         </ul>
-
     </div>
-</nav>*@
-
-@code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}
+</nav>
