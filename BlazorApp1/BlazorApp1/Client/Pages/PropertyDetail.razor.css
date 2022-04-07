@@ -29,3 +29,7 @@
     border-radius: 5px;
     width: 15% !important;
 }
+
+img{
+    animation-delay:2s;
+}
