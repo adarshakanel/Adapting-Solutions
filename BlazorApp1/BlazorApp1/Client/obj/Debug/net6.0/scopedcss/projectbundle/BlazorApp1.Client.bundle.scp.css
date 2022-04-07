@@ -26,6 +26,19 @@
     padding-bottom: 0.5em;
 }
 
+/* /Pages/Favourites.razor.rz.scp.css */
+.pageTitle[b-f6b5nx1ign] {
+    padding-left: 2em;
+    padding-top: 1em;
+    color: #0077C8;
+}
+/* /Pages/TrackedListings.razor.rz.scp.css */
+
+.pageTitle[b-klbl6yfze6] {
+    padding-left: 2em;
+    padding-top: 1em;
+    color: #0077C8;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 /* /Shared/NavMenu.razor.rz.scp.css */
 .bg-custom[b-aw7s1uks9t] {

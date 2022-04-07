@@ -8,11 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\Appointment - Copy.razor.css" />
     <None Remove="Pages\Appointment.razor.css" />
+    <None Remove="Pages\Favourites.razor.css" />
+    <None Remove="Pages\TrackedListings.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Pages\Appointment.razor.css" />
+    <Content Include="Pages\Favourites.razor.css" />
+    <Content Include="Pages\TrackedListings.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
