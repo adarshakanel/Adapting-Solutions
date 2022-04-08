@@ -1,5 +1,10 @@
 .pageTitle[b-f6b5nx1ign] {
     padding-left: 2em;
     padding-top: 1em;
+    padding-bottom: 1em;
     color: #0077C8;
+}
+
+.row[b-f6b5nx1ign] {
+    padding-bottom: 2em;
 }
