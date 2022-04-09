@@ -40,7 +40,7 @@
         </a>
         <div class="butt btn btn-primary">MORTGAGE <br /> CALCULATOR</div>
         <div class="butt btn btn-primary d-flex justify-content-center align-items-center">COMPARE</div>
-        <div class="butt btn btn-primary">NEARBY <br /> AMENDITIES</div>
+        <div class="butt btn btn-primary">NEARBY <br /> AMENITIES</div>
         <div class=@buttonP @onclick="setisTrackingP">@getisTrackingP() <br /> PROPERTIES</div>
         <div class=@buttonN @onclick="setisTrackingN">@getisTrackingN() <br /> NEIGHBOURHOOD</div>
         <!--<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>-->
@@ -112,13 +112,30 @@ https://s3-us-west-2.amazonaws.com/rets-mls/advisors/header_images/000/000/445/t
         </div>
 
         <div class="d-flex flex-column" style="width:60%" >
-            <div class="d-flex flex-column align-items-center mt-2" style="width:100%">
-                <input placeholder="Full Name*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%" />
-                <input placeholder="email*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%"  />
-                <input placeholder="Meeting Day*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%"  />
-                <input placeholder="Meting Time*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%"  />
-                <input placeholder="Phone number*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%"  />
-                <div class="btn btn-primary pt-2 pb-2 mt-5" style="width:30%">BOOK AN APPOINTMENT!</div>
+            <div class="d-flex flex-column align-items-center mt-2" style="width:100%; height:100%">
+                @if(!appointmentBooked)
+                {
+                    <form class="d-flex flex-column align-items-center" style="width:100%; height:100%">
+                        <input placeholder="Full Name*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%" @oninput="@((e) => {name=(String) e.Value;})" required />
+                        <input placeholder="email*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%" @oninput="@((e) => {email=(String) e.Value;})" required />
+                        <input placeholder="Meeting Day*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%"  @oninput="@((e) => {meetingDay=(String) e.Value;})" required/>
+                        <input placeholder="Meting Time*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%"   @oninput="@((e) => {meetingTime=(String) e.Value;})" required/>
+                        <input placeholder="Phone number*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%" @oninput="@((e) => {phoneNo=(String) e.Value;})"  required/>
+                        <div type="submit" class="btn btn-primary pt-2 pb-2 mt-5" style="width:30%" @onclick="appointmentMade" >BOOK AN APPOINTMENT!</div>
+                    </form>
+
+                }
+                else
+                {
+                    <div class="d-flex flex-column text-center justify-content-center align-items-center mb-5 mr-3" style="height:100%; width:100%">
+                        <i class="bi bi-check-circle" style="color:forestgreen; font-size:3vw"></i>
+                        <h2 style="color:forestgreen"> A Viewing has been scheduled with Anna</h2>
+                        <h2>An email with the appointment details has been sent to <br> <span style="color:#0076C6">@email</span> 
+                        </h2>
+                    </div>
+
+                }
+
             </div>
         </div>
     </div>
@@ -142,7 +159,7 @@ https://s3-us-west-2.amazonaws.com/rets-mls/advisors/header_images/000/000/445/t
     <div class="d-flex justify-content-center mt-4 mb-4" style="width:100%" id="amendities">
         <div class="mt-4 d-flex flex-column align-items-center" style="width:100%">
             <h1 class="text-center">
-                NEARBY <br /> AMENDITIES
+                NEARBY <br /> AMENITIES
             </h1>
          <div class="line mb-2 mt-3"> </div>
         </div>
@@ -174,6 +191,12 @@ https://s3-us-west-2.amazonaws.com/rets-mls/advisors/header_images/000/000/445/t
 </div>
 
 @code{
+    public Boolean appointmentBooked {get;set;} = false;
+    String email {get;set;} = "";
+    String name {get;set;} = "";
+    String meetingDay {get;set;} = "";
+    String meetingTime {get;set;} = "";
+    String phoneNo {get;set;} = "";
     Boolean isTrackingP = false;
     Boolean isTrackingN = false;
     String buttonP = "butt btn btn-primary";
@@ -187,9 +210,18 @@ https://s3-us-west-2.amazonaws.com/rets-mls/advisors/header_images/000/000/445/t
     String[] schoolMap = new String[]{"left:5%; top: 10%", "left:60%;bottom: 20%"};
     String[] transitMap = new String[]{"left:25%; top: 30%", "left:50%;bottom: 0%", "left:65%; top:45%"};
     String[] shoppingMap = new String[]{"left:15%; top: 10%", "left:50%;bottom: 20%"};
+
     void setCurrentMap(int map)
     {
         currentMap = map;
+    }
+
+    void appointmentMade()
+    {
+        if(email!="" && name!="" && meetingDay!="" && meetingTime!="" && phoneNo!="")
+        {
+            appointmentBooked = true;
+        }
     }
 
     String[] returnMap()
