@@ -37,12 +37,38 @@
 .row[b-f6b5nx1ign] {
     padding-bottom: 2em;
 }
+
 /* /Pages/TrackedListings.razor.rz.scp.css */
 
 .pageTitle[b-klbl6yfze6] {
     padding-left: 2em;
     padding-top: 1em;
     color: #0077C8;
+}
+
+.img-fixed[b-klbl6yfze6] {
+    width: 300px;
+}
+
+.availability[b-klbl6yfze6] {
+    padding-bottom: 1em;
+}
+
+.listing[b-klbl6yfze6] {
+    background: rgba(0, 119, 200, 0.12);
+}
+
+.community[b-klbl6yfze6] {
+    padding-top: 4em;
+
+}
+
+.c[b-klbl6yfze6] {
+    background: rgba(0, 119, 200, 0.12);
+}
+
+.avail[b-klbl6yfze6] {
+    color:green;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 /* /Shared/NavMenu.razor.rz.scp.css */
