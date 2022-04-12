@@ -69,7 +69,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-HdONa2bx47rxR8ts+3dFNGYW6L4CpinA6brD6QKP97E=",
+      "hash": "sha256-VxozYCF7QEzdQQXO7\/WvxB+U1N9BWK0scO7BaAekPkE=",
       "url": "BlazorApp1.Client.styles.css"
     },
     {
@@ -881,5 +881,5 @@
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "Q4ce7X8N"
+  "version": "GqRDILkd"
 };
