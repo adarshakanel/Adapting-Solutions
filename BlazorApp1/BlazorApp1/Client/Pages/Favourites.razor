@@ -1,0 +1,137 @@
+﻿@page "/favourites"
+
+<PageTitle>Favourites</PageTitle>
+
+<div class="container-fluid">
+    <div class="pageTitle">
+        <div class="d-flex flex-row">
+            <div class="p-2">
+                <a href="favourites" class="btn btn-lg btn-outline-primary">Favourites</a>
+                <a href="trackedListings" class="btn btn-lg btn-outline-primary">Tracked Listings</a>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div class="container">
+    <div class="search-bar">
+        <form>
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><span class="fa fa-search"></span></button>
+        </form>
+    </div>  
+
+
+        <div class="row">
+            <div class="col">
+                <div hidden="@Hide1" class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">83 7 Street NE, Calgary AB</h5>
+                        <h6 class="card-subtitle mb-2">$310, 000</h6>
+                        <p class="card-text">2+1 Bath - 3 Bed - 1650 sq ft </p>
+                        <p class="card-text">Fully finished 2 storey home is an absolute charmer! Impeccably cared for with true pride of ownership, the space is infused with nostalgic comfort.</p>
+                        <button onclick="@Toggle1" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>  
+            </div>
+            <div class="col">
+                <div hidden="@Hide2" class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">2981 Scenic Dr NW, Calgary AB</h5>
+                        <h6 class="card-subtitle mb-2">$310, 000</h6>
+                        <p class="card-text">2+1 Bath - 3 Bed - 1650 sq ft </p>
+                        <p class="card-text">This is a spectacular chance to get into Lakeview and set up roots. A perfect community to raise your family in. Close to Glenmore and Crowchild for fast easy access everywhere.</p>
+                        <button onclick="@Toggle2" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>  
+            </div>
+            <div class="col">
+                <div hidden="@Hide3" class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">358 Shannon Ave SW, Calgary AB</h5>
+                        <h6 class="card-subtitle mb-2">$310, 000</h6>
+                        <p class="card-text">2+1 Bath - 3 Bed - 1650 sq ft </p>
+                        <p class="card-text">The living is easy in this impressive, generously proportioned contemporary residence with lake and ocean views, located within a level stroll to the sand and surf.</p>
+                        <button onclick="@Toggle3" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div hidden="@Hide4" class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="https://images.pexels.com/photos/259751/pexels-photo-259751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">2 Brighton Rd SW, Calgary AB</h5>
+                        <h6 class="card-subtitle mb-2">$310, 000</h6>
+                        <p class="card-text">2+1 Bath - 3 Bed - 1650 sq ft </p>
+                        <p class="card-text">The living is easy in this impressive, generously proportioned contemporary residence with lake and ocean views, located within a level stroll to the sand and surf.</p>
+                        <button onclick="@Toggle4" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>  
+            </div>
+            <div class="col">
+                <div hidden="@Hide5" class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="https://images.pexels.com/photos/2121120/pexels-photo-2121120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">35 Royal Ave NW, Calgary AB</h5>
+                        <h6 class="card-subtitle mb-2">$310, 000</h6>
+                        <p class="card-text">2+1 Bath - 3 Bed - 1650 sq ft </p>
+                        <p class="card-text">The living is easy in this impressive, generously proportioned contemporary residence with lake and ocean views, located within a level stroll to the sand and surf.</p>
+                        <button onclick="@Toggle5" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>  
+            </div>
+            <div class="col">
+                <div hidden="@Hide6" class="card" style="width: 25rem;">
+                    <img class="card-img-top" src="https://images.pexels.com/photos/3214064/pexels-photo-3214064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">99 Castle Way NE, Calgary AB</h5>
+                        <h6 class="card-subtitle mb-2">$310, 000</h6>
+                        <p class="card-text">2+1 Bath - 3 Bed - 1650 sq ft </p>
+                        <p class="card-text">The living is easy in this impressive, generously proportioned contemporary residence with lake and ocean views, located within a level stroll to the sand and surf.</p>
+                        <button onclick="@Toggle6" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private bool Hide1 { get; set; } = false;
+    private void Toggle1()
+    {
+        Hide1 = !Hide1;
+    }
+
+    private bool Hide2 { get; set; } = false;
+    private void Toggle2()
+    {
+        Hide2 = !Hide2;
+    }
+    private bool Hide3 { get; set; } = false;
+    private void Toggle3()
+    {
+        Hide3 = !Hide3;
+    }
+    private bool Hide4 { get; set; } = false;
+    private void Toggle4()
+    {
+        Hide4 = !Hide4;
+    }
+    private bool Hide5 { get; set; } = false;
+    private void Toggle5()
+    {
+        Hide5 = !Hide5;
+    }
+    private bool Hide6 { get; set; } = false;
+    private void Toggle6()
+    {
+        Hide6 = !Hide6;
+    }
+}

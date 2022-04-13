@@ -1,0 +1,27 @@
+﻿.pageTitle {
+    padding-left: 2em;
+    padding-top: 1em;
+    color: #0077C8;
+}
+
+.aptHeader {
+
+}
+.aptBox {
+    padding-top: 1.5em;
+}
+
+.apptInfo {
+    padding-left:1em;
+}
+
+.appts {
+    padding-top: 1em;
+    padding-right:1em;
+}
+
+.apptDetails {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
