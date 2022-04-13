@@ -37,3 +37,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/adars/OneDrive/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlEZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-7o602krxmp
+
+[C:/Users/adars/OneDrive/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyMortgage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlNb3J0Z2FnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-oxsi4wems3

@@ -824,3 +824,4 @@ C:\Users\adars\OneDrive\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp
 C:\Users\adars\OneDrive\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\ref\BlazorApp1.Client.dll
 C:\Users\adars\OneDrive\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\scopedcss\Pages\PropertyDetail.razor.rz.scp.css
 C:\Users\adars\OneDrive\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\scopedcss\projectbundle\BlazorApp1.Client.bundle.scp.css
+C:\Users\adars\OneDrive\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\scopedcss\Pages\PropertyMortgage.razor.rz.scp.css

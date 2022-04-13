@@ -1,60 +1,23 @@
-/* /Pages/PropertyDetail.razor.rz.scp.css */
-body[b-7o602krxmp] {
-}
-
-.butt[b-7o602krxmp] {
-    width: 150px !important;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: #0076C6 !important;
-    padding-left: 10px;
-    padding-right: 10px;
-    height:60px;
-}
-
-.butt2[b-7o602krxmp] {
-    height:60px;
-    width: 150px !important;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.textColor[b-7o602krxmp] {
-    color: #0076C6;
-}
-
-.line[b-7o602krxmp] {
-    border: 5px solid #0076C6;
-    border-radius: 5px;
-    width: 15% !important;
-}
-
-img[b-7o602krxmp]{
-    animation-delay:2s;
-}
-/* /Pages/PropertyMortgage.razor.rz.scp.css */
-h1[b-oxsi4wems3] {
+﻿h1 {
     color: #0077c8;
     font-family: Inria Serif;
     font-weight: bold;
 }
 
-p[b-oxsi4wems3] {
+p {
     font-family: Inria Serif;
     color: black;
     font-style: italic;
     font-weight: bold;
 }
 
-p1[b-oxsi4wems3] {
+p1 {
     color: #0077c8;
     font-family: Inria Serif;
     font-weight: bold;
 }
 
-button[b-oxsi4wems3] {
+button {
     background-color: white;
     color: #0077c8;
     border: 3px solid #0077c8;
@@ -62,14 +25,14 @@ button[b-oxsi4wems3] {
     font-weight: bold;
 }
 
-input[b-oxsi4wems3] {
+input {
     display: block;
     border: 2px solid #ccc;
     border-radius: 5px;
     font-family: Inria Serif;
 }
 
-.split[b-oxsi4wems3] {
+.split {
     height: 100%;
     width: 50%;
     position: fixed;
@@ -79,20 +42,20 @@ input[b-oxsi4wems3] {
     padding-top: 20px;
 }
 
-.flex-container[b-oxsi4wems3] {
+.flex-container {
     display: flex;
 }
 
-.flex-child[b-oxsi4wems3] {
+.flex-child {
     flex: 1;
     margin: auto;
 }
 
-    .flex-child:first-child[b-oxsi4wems3] {
+    .flex-child:first-child {
         margin-right: 20px;
     }
 
-section[b-oxsi4wems3] {
+section {
     width: 500px;
     border: 3px solid #0077c8;
     padding: 30px;
@@ -100,19 +63,19 @@ section[b-oxsi4wems3] {
     border-radius: 30px;
 }
 
-label[b-oxsi4wems3] {
+label {
     color: #0077c8;
     font-family: Inter;
     font-style: italic;
 }
 
-label2[b-oxsi4wems3] {
+label2 {
     color: black;
     font-family: Inter;
     font-style: italic;
 }
 
-select[b-oxsi4wems3] {
+select {
     display: block;
     border: 2px solid #ccc;
     border-radius: 5px;
