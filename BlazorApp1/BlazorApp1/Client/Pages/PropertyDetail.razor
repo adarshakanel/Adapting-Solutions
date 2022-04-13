@@ -58,15 +58,22 @@
         <div style="width:100%" class="d-flex justify-content-around mt-4 mb-4" >
             <div style="width:40%;">
                 <div class="d-flex"> <div class="textColor fw-bold pe-1">Price: </div> $699,999</div>
+                <!--<div class="d-flex"> <div class="textColor fw-bold pe-1">Price: </div> @price</div>-->
                 <div class="d-flex mt-2"><div class="textColor fw-bold pe-1">Location: </div> 123 Earlgray Street, SW</div>
+                <!--<div class="d-flex mt-2"><div class="textColor fw-bold pe-1">Location: </div> @address </div>-->
                 <div class="d-flex mt-2"><div class="textColor fw-bold  pe-1">Listing Date: </div> 2022-01-20</div>
+                <!--<div class="d-flex mt-2"><div class="textColor fw-bold  pe-1">Listing Date: </div> @listingDate </div>-->
             </div>
 
             <div style="width:60%;" class="d-flex justify-content-evenly" >
 
+                <!--<div class="mr-3 d-flex text-center flex-column" > @bedrooms <br /> <div class="textColor fw-bold">BEDROOMS</div> </div>-->
                 <div class="mr-3 d-flex text-center flex-column" >3 <br /> <div class="textColor fw-bold">BEDROOMS</div> </div>
+                <!--<div class="ml-3 mr-3 d-flex text-center flex-column" > @bathrooms <br /><div class="textColor fw-bold">BATHROOMS</div> </div>-->
                 <div class="ml-3 mr-3 d-flex text-center flex-column" >2 + 1 <br /><div class="textColor fw-bold">BATHROOMS</div> </div>
+                <!--<div class="ml-3 mr-3 d-flex text-center flex-column" > @sqFootage <br /><div class="textColor fw-bold">SQAUARE FEET</div> </div>-->
                 <div class="ml-3 mr-3 d-flex text-center flex-column" >1650 <br /><div class="textColor fw-bold">SQAUARE FEET</div> </div>
+                <!--<div class="ml-3 d-flex text-center flex-column" >@yearBuilt <br /> <div class="textColor fw-bold">YEAR BUILT</div> </div>-->
                 <div class="ml-3 d-flex text-center flex-column" >2001 <br /> <div class="textColor fw-bold">YEAR BUILT</div> </div>
 
             </div>
@@ -196,6 +203,14 @@ https://s3-us-west-2.amazonaws.com/rets-mls/advisors/header_images/000/000/445/t
 </div>
 
 @code{
+    String price { get; set; }
+    String address { get; set; }
+    String listingDate { get; set; }
+    String bathrooms { get; set; }
+    String bedrooms { get; set; }
+    String sqFootage { get; set; }
+    String yearBuilt { get; set; }
+
     public Boolean appointmentBooked {get;set;} = false;
     String email {get;set;} = "";
     String name {get;set;} = "";
