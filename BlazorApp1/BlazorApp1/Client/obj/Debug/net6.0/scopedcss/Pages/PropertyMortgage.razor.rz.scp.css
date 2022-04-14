@@ -1,0 +1,83 @@
+h1[b-8d6daymlxg] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+p[b-8d6daymlxg] {
+    font-family: Inria Serif;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p1[b-8d6daymlxg] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+button[b-8d6daymlxg] {
+    background-color: white;
+    color: #0077c8;
+    border: 3px solid #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+input[b-8d6daymlxg] {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}
+
+.split[b-8d6daymlxg] {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.flex-container[b-8d6daymlxg] {
+    display: flex;
+}
+
+.flex-child[b-8d6daymlxg] {
+    flex: 1;
+    margin: auto;
+}
+
+    .flex-child:first-child[b-8d6daymlxg] {
+        margin-right: 20px;
+    }
+
+section[b-8d6daymlxg] {
+    width: 500px;
+    border: 3px solid #0077c8;
+    padding: 30px;
+    background: #fff;
+    border-radius: 30px;
+}
+
+label[b-8d6daymlxg] {
+    color: #0077c8;
+    font-family: Inter;
+    font-style: italic;
+}
+
+label2[b-8d6daymlxg] {
+    color: black;
+    font-family: Inter;
+    font-style: italic;
+}
+
+select[b-8d6daymlxg] {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}

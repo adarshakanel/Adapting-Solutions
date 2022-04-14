@@ -1,0 +1,56 @@
+.flex-container[b-bgyp7c5r73] {
+    display: flex;
+}
+
+.flex-child[b-bgyp7c5r73] {
+    flex: 1;
+    margin: auto;
+}
+
+.flex-child:first-child[b-bgyp7c5r73] {
+    margin-right: 20px;
+}
+
+.good[b-bgyp7c5r73] {
+    background-color: #00ff7f;
+}
+
+.bad[b-bgyp7c5r73] {
+    background-color: #fa8072;
+}
+
+h1[b-bgyp7c5r73] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p[b-bgyp7c5r73] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    margin: 0;
+    display: inline;
+    font-size: 20px;
+}
+
+p1[b-bgyp7c5r73] {
+    font-family: Inria Serif;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    display: inline;
+    font-size: 20px;
+}
+
+p2[b-bgyp7c5r73] {
+    font-family: Inria Serif;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    display: inline;
+    font-size: 25px;
+}

@@ -1,0 +1,84 @@
+h1[b-9899zcbok0] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+p[b-9899zcbok0] {
+    font-family: Inria Serif;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p1[b-9899zcbok0] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+button[b-9899zcbok0] {
+    background-color: white;
+    color: #0077c8;
+    border: 3px solid #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+
+}
+
+input[b-9899zcbok0] {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}
+
+.split[b-9899zcbok0] {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.flex-container[b-9899zcbok0] {
+    display: flex;
+}
+
+.flex-child[b-9899zcbok0] {
+    flex: 1;
+    margin: auto;
+}  
+
+.flex-child:first-child[b-9899zcbok0] {
+    margin-right: 20px;
+}
+
+section[b-9899zcbok0] {
+    width: 500px;
+    border: 3px solid #0077c8;
+    padding: 30px;
+    background: #fff;
+    border-radius: 30px;
+}
+
+label[b-9899zcbok0] {
+    color: #0077c8;
+    font-family: Inter;
+    font-style: italic;
+}
+
+label2[b-9899zcbok0] {
+    color: black;
+    font-family: Inter;
+    font-style: italic;
+}
+
+select[b-9899zcbok0] {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}
