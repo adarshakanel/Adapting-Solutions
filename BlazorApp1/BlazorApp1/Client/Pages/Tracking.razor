@@ -1,0 +1,138 @@
+﻿@page "/Tracking"
+
+<div  class="d-flex flex-column align-items-center">
+
+
+    <div class="d-flex justify-content-end p-4" style="width:100%">
+        <div class="d-flex justify-content-between" style="width:30%; margin-right:30%">
+                <h2>Panorama Hills</h2>
+                <a href="/">
+                    <div class=" btn btn-primary px-4 trackingButton ">Untrack</div>
+                </a>
+        </div>
+
+
+    </div>
+
+
+    <div class="d-flex " style="width:100%">
+
+        <div class="d-flex flex-column align-items-center" style="width:15%;height:fit-content; background-color:whitesmoke">
+            <p>4 results</p>
+            <h5>Active Filters</h5>
+        
+            <p style="border:3px; border-style:solid; border-color:#000; padding: 1em;">
+            House Type: Duplex <button class="link" style="padding: 0;border: none;background: none;">X</button>
+            </p>
+        
+            <!--
+            <p style="border:3px; border-style:solid; border-color:#000; padding: 1em;">
+            Location: Calgary <button class="link" style="padding: 0;border: none;background: none;">X</button>
+            </p>-->
+        
+            <p>
+            <button class="link" style="padding: 0;border: none;background: none;">Reset Filters</button>
+            </p>
+        
+            <h5>Refine my Results</h5>
+            <label for="sort" style="font-size:20px;">Category:</label>
+            <div class="select1">
+                <select style="bottom:10px;width:fit-content">
+                    <option value="duplex">Duplex</option>
+                    <option value="townhouse">Townhouse</option>
+                    <option value="apartment">Apartment</option>
+                    <option value="land">Land</option>
+                    <option value="bungalow">Bungalow</option>
+                    <option value="single_detached">Single Detached</option>
+                </select>
+             </div>
+            <label for="sort" style="font-size:20px;">Location:</label>
+            <div class="select1">
+                <select style="bottom:10px;width:fit-content">
+                    <option value="car">Car</option>
+                    <option value="bike">Bike</option>
+                    <option value="train">Train</option>
+                    <option value="aeroplane">Aeroplane</option>
+                </select>
+             </div>
+            <label for="sort" style="font-size:20px;">Price:</label>
+            <div class="select1">
+                <select style="bottom:10px;width:fit-content">
+                    <option value="car">Car</option>
+                    <option value="bike">Bike</option>
+                    <option value="train">Train</option>
+                    <option value="aeroplane">Aeroplane</option>
+                </select>
+             </div>
+            <label for="sort" style="font-size:20px;">Square Foot:</label>
+            <div class="select1">
+                <select style="bottom:10px;width:fit-content">
+                    <option value="car">Car</option>
+                    <option value="bike">Bike</option>
+                    <option value="train">Train</option>
+                    <option value="aeroplane">Aeroplane</option>
+                </select>
+             </div>
+        </div>
+
+
+        
+        <div class="d-flex flex-column" style="width:80%">
+            <div class="d-flex " style="position:relative;justify-content:space-evenly">
+                <div style="overflow:auto;">
+                    <img class="img-with-text" style="background-size:contain;" src=images/tracking_page3.JPG>
+                </div>
+            </div>
+            <div class="d-flex" style="position:relative; justify-content:space-evenly">
+                <div >
+                    <img class="img-with-text" style=" background-size:contain"src=images/tracking_page2.JPG>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+  
+
+    </div>
+
+
+
+<style>
+.trackingButton{
+    background-color: #0077C8 !important;
+}
+
+.select1 {
+    width: 75px;
+    overflow: hidden;
+    border: 0;
+    position: relative;
+    padding: 10px 0;
+}
+
+.select1:after {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 10px solid #0077C8;
+    position: absolute;
+    bottom: 24px;
+    right: 5px;
+    content: "";
+    z-index: 98;
+}
+
+.select1 select  {
+    width: 220px;
+    border: 1px;
+    position: relative;
+    z-index: 99;
+    background: none;
+}
+
+.img-with-text{
+    display: block;
+    margin: 0 auto;
+}
+</style>
