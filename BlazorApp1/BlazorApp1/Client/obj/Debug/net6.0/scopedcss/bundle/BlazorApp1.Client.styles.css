@@ -26,6 +26,137 @@
     padding-bottom: 0.5em;
 }
 
+/* /Pages/Compare.razor.rz.scp.css */
+*[b-ei1nrkabfg] {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.compare-col[b-ei1nrkabfg] {
+    /* width: 100%; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-col[b-ei1nrkabfg] {
+    border-right: 3px solid #0077c8;
+    border-left: 3px solid #0077c8;
+}
+
+.compare-row[b-ei1nrkabfg] {
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.house-img-wrapper[b-ei1nrkabfg] {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+    .house-img-wrapper img[b-ei1nrkabfg] {
+        width: 400px;
+        height: auto;
+    }
+
+.compare-row[b-ei1nrkabfg] {
+    /* margin: 15px; */
+    width: 100%;
+}
+
+.compare-container[b-ei1nrkabfg] {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.compare-body[b-ei1nrkabfg] {
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+}
+
+.house-price[b-ei1nrkabfg] {
+    margin: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+}
+
+.addy[b-ei1nrkabfg] {
+    margin: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    color: black;
+    margin: 0px;
+}
+
+.compare-text[b-ei1nrkabfg] {
+    margin-right: 10px;
+    color: #0077c8;
+}
+
+.positive[b-ei1nrkabfg] {
+    color: #5cb85c;
+}
+
+.negative[b-ei1nrkabfg] {
+    color: #dc3545;
+}
+
+hr[b-ei1nrkabfg] {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.compare-heading[b-ei1nrkabfg] {
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    font-size: 50px;
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    justify-content: center;
+}
+
+.listing-btn[b-ei1nrkabfg] {
+    border-radius: 10px;
+    margin: 15px;
+    background-image: linear-gradient(90deg, #0077c8, #0faef2);
+    background-clip: text;
+    color: white;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: 10px; */
+    align-self: center;
+    justify-content: center;
+    width: fit-content;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.listing-btn a[b-ei1nrkabfg] {
+    text-decoration: none;
+}
 /* /Pages/Favourites.razor.rz.scp.css */
 .pageTitle[b-f6b5nx1ign] {
     padding-left: 2em;
@@ -40,6 +171,679 @@
 
 .search-bar[b-f6b5nx1ign] {
     padding-bottom: 2em;
+}
+
+.fav[b-f6b5nx1ign] {
+    padding-left: 1em;
+}
+/* /Pages/Homepage.razor.rz.scp.css */
+*[b-83q1ve13nz] {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heart-red[b-83q1ve13nz] {
+    color: #dc3545;
+}
+
+.work-body[b-83q1ve13nz] {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* style format and align heading */
+.heading[b-83q1ve13nz] {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.icons-bar[b-83q1ve13nz] {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    justify-items: space-between;
+    justify-content: center;
+}
+
+.icon img[b-83q1ve13nz] {
+    /* border: 2px solid red; */
+    width: 125px;
+    height: 125px;
+}
+
+.icon p[b-83q1ve13nz] {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.icon[b-83q1ve13nz] {
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center[b-83q1ve13nz] {
+    justify-self: center;
+}
+
+.help-heading[b-83q1ve13nz] {
+    font-size: 20px;
+}
+
+.questions-container[b-83q1ve13nz] {
+    margin-left: auto;
+    margin-right: 15%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.space[b-83q1ve13nz] {
+    margin-right: 12%;
+}
+
+.icon-heading[b-83q1ve13nz] {
+    font-size: 35px;
+}
+
+.upper[b-83q1ve13nz] {
+    padding-left: 8%;
+    display: flex;
+}
+
+.headings-container[b-83q1ve13nz] {
+    /* border: 2px solid red; */
+}
+
+.flex-header[b-83q1ve13nz] {
+    padding-left: 15%;
+    display: flex;
+}
+
+.other[b-83q1ve13nz] {
+    align-self: center;
+}
+
+.large[b-83q1ve13nz] {
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+/* formating main section properly */
+.home-main[b-83q1ve13nz] {
+    /* width: 80%; */
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.center[b-83q1ve13nz] {
+    align-self: center;
+}
+
+/* styling the body text */
+.body-text[b-83q1ve13nz] {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+/* creating a grid */
+/* all the indiviual projects will be apart of this grid */
+.proerties-box[b-83q1ve13nz] {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-gap: 1rem;
+}
+
+/* styling and aligning indiviual project card */
+.property[b-83q1ve13nz] {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.house-details[b-83q1ve13nz] {
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.house-details[b-83q1ve13nz] {
+    margin: 0px;
+}
+
+    .house-details li[b-83q1ve13nz] {
+        display: flex;
+    }
+
+.item-heading[b-83q1ve13nz] {
+    color: #0077c8;
+}
+
+/* align the image container for a project card */
+.property-img-containter[b-83q1ve13nz] {
+    /* rounding the top edges for effect */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    /* resizing it to 1080 */
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+
+    /* formatting the image to fit the container and stay centered */
+.property-img-containter img[b-83q1ve13nz] {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+ }
+
+/* styling the contet and creating flex box */
+.property-content[b-83q1ve13nz] {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* styling the title at the top of the flexbox */
+.project-title[b-83q1ve13nz] {
+    font-family: "ZCOOL QingKe HuangYou", cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* after title in the flex box */
+/* styling the description text */
+.property-description[b-83q1ve13nz] {
+    margin-bottom: 15px;
+}
+
+.bottom[b-83q1ve13nz] {
+    display: flex;
+    flex-direction: row;
+}
+
+.heart[b-83q1ve13nz] {
+    width: 25px;
+    height: auto;
+    margin-left: auto;
+    /* border: 2px red solid; */
+}
+
+.compare-btn[b-83q1ve13nz] {
+    background-image: linear-gradient(90deg, #0077c8, #0faef2);
+    background-clip: text;
+    color: white;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    align-self: center;
+    margin-left: auto;
+    width: 100px;
+    height: 30px;
+}
+
+.compare-btn:hover[b-83q1ve13nz] {
+    transform: translateY(-2px);
+}
+
+.price[b-83q1ve13nz] {
+    align-self: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0077c8;
+}
+/* /Pages/Mortgage.razor.rz.scp.css */
+h1[b-45omqo451y] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom : 50px;
+}
+
+p[b-45omqo451y] {
+    font-family: Inria Serif;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p1[b-45omqo451y] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+button[b-45omqo451y] {
+    background-color: white;
+    color: #0077c8;
+    border: 3px solid #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+
+}
+
+input[b-45omqo451y] {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}
+
+.split[b-45omqo451y] {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.flex-container[b-45omqo451y] {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+.flex-child[b-45omqo451y] {
+    flex: 1;
+    margin: auto;
+}  
+
+.flex-child:first-child[b-45omqo451y] {
+    margin-right: 20px;
+}
+
+section[b-45omqo451y] {
+    width: 500px;
+    border: 3px solid #0077c8;
+    padding: 30px;
+    background: #fff;
+    border-radius: 30px;
+}
+
+label[b-45omqo451y] {
+    color: #0077c8;
+    font-family: Inter;
+    font-style: italic;
+}
+
+label2[b-45omqo451y] {
+    color: black;
+    font-family: Inter;
+    font-style: italic;
+}
+
+select[b-45omqo451y] {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}
+/* /Pages/PropertyDetail.razor.rz.scp.css */
+body[b-7o602krxmp] {
+}
+
+.butt[b-7o602krxmp] {
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #0076C6 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+
+.butt2[b-7o602krxmp] {
+    height: 60px;
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textColor[b-7o602krxmp] {
+    color: #0076C6;
+}
+
+.line[b-7o602krxmp] {
+    border: 5px solid #0076C6;
+    border-radius: 5px;
+    width: 15% !important;
+}
+
+img[b-7o602krxmp] {
+    animation-delay: 2s;
+}
+/* /Pages/PropertyDetail1.razor.rz.scp.css */
+body[b-3mf9nsvmqb] {
+}
+
+.butt[b-3mf9nsvmqb] {
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #0076C6 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+
+.butt2[b-3mf9nsvmqb] {
+    height: 60px;
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textColor[b-3mf9nsvmqb] {
+    color: #0076C6;
+}
+
+.line[b-3mf9nsvmqb] {
+    border: 5px solid #0076C6;
+    border-radius: 5px;
+    width: 15% !important;
+}
+
+img[b-3mf9nsvmqb] {
+    animation-delay: 2s;
+}
+/* /Pages/PropertyDetail2.razor.rz.scp.css */
+body[b-61zcnbflkw] {
+}
+
+.butt[b-61zcnbflkw] {
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #0076C6 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+
+.butt2[b-61zcnbflkw] {
+    height: 60px;
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textColor[b-61zcnbflkw] {
+    color: #0076C6;
+}
+
+.line[b-61zcnbflkw] {
+    border: 5px solid #0076C6;
+    border-radius: 5px;
+    width: 15% !important;
+}
+
+img[b-61zcnbflkw] {
+    animation-delay: 2s;
+}
+/* /Pages/PropertyDetail3.razor.rz.scp.css */
+body[b-2pfn697ydx] {
+}
+
+.butt[b-2pfn697ydx] {
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #0076C6 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+
+.butt2[b-2pfn697ydx] {
+    height: 60px;
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textColor[b-2pfn697ydx] {
+    color: #0076C6;
+}
+
+.line[b-2pfn697ydx] {
+    border: 5px solid #0076C6;
+    border-radius: 5px;
+    width: 15% !important;
+}
+
+img[b-2pfn697ydx] {
+    animation-delay: 2s;
+}
+/* /Pages/PropertyDetail4.razor.rz.scp.css */
+body[b-wz9r9html3] {
+}
+
+.butt[b-wz9r9html3] {
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #0076C6 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+
+.butt2[b-wz9r9html3] {
+    height: 60px;
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textColor[b-wz9r9html3] {
+    color: #0076C6;
+}
+
+.line[b-wz9r9html3] {
+    border: 5px solid #0076C6;
+    border-radius: 5px;
+    width: 15% !important;
+}
+
+img[b-wz9r9html3] {
+    animation-delay: 2s;
+}
+/* /Pages/PropertyDetail5.razor.rz.scp.css */
+body[b-ttk8eux4xi] {
+}
+
+.butt[b-ttk8eux4xi] {
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #0076C6 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+
+.butt2[b-ttk8eux4xi] {
+    height: 60px;
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textColor[b-ttk8eux4xi] {
+    color: #0076C6;
+}
+
+.line[b-ttk8eux4xi] {
+    border: 5px solid #0076C6;
+    border-radius: 5px;
+    width: 15% !important;
+}
+
+img[b-ttk8eux4xi] {
+    animation-delay: 2s;
+}
+/* /Pages/PropertyDetail6.razor.rz.scp.css */
+body[b-3oyuv0bz49] {
+}
+
+.butt[b-3oyuv0bz49] {
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #0076C6 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+
+.butt2[b-3oyuv0bz49] {
+    height: 60px;
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textColor[b-3oyuv0bz49] {
+    color: #0076C6;
+}
+
+.line[b-3oyuv0bz49] {
+    border: 5px solid #0076C6;
+    border-radius: 5px;
+    width: 15% !important;
+}
+
+img[b-3oyuv0bz49] {
+    animation-delay: 2s;
+}
+/* /Pages/PropertyMortgage.razor.rz.scp.css */
+h1[b-oxsi4wems3] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+p[b-oxsi4wems3] {
+    font-family: Inria Serif;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p1[b-oxsi4wems3] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+button[b-oxsi4wems3] {
+    background-color: white;
+    color: #0077c8;
+    border: 3px solid #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+input[b-oxsi4wems3] {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}
+
+.split[b-oxsi4wems3] {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.flex-container[b-oxsi4wems3] {
+    display: flex;
+}
+
+.flex-child[b-oxsi4wems3] {
+    flex: 1;
+    margin: auto;
+}
+
+    .flex-child:first-child[b-oxsi4wems3] {
+        margin-right: 20px;
+    }
+
+section[b-oxsi4wems3] {
+    width: 500px;
+    border: 3px solid #0077c8;
+    padding: 30px;
+    background: #fff;
+    border-radius: 30px;
+}
+
+label[b-oxsi4wems3] {
+    color: #0077c8;
+    font-family: Inter;
+    font-style: italic;
+}
+
+label2[b-oxsi4wems3] {
+    color: black;
+    font-family: Inter;
+    font-style: italic;
+}
+
+select[b-oxsi4wems3] {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
 }
 /* /Pages/TrackedListings.razor.rz.scp.css */
 

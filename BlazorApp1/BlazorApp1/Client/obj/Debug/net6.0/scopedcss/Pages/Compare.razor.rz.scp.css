@@ -1,0 +1,130 @@
+*[b-ei1nrkabfg] {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.compare-col[b-ei1nrkabfg] {
+    /* width: 100%; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-col[b-ei1nrkabfg] {
+    border-right: 3px solid #0077c8;
+    border-left: 3px solid #0077c8;
+}
+
+.compare-row[b-ei1nrkabfg] {
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.house-img-wrapper[b-ei1nrkabfg] {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+    .house-img-wrapper img[b-ei1nrkabfg] {
+        width: 400px;
+        height: auto;
+    }
+
+.compare-row[b-ei1nrkabfg] {
+    /* margin: 15px; */
+    width: 100%;
+}
+
+.compare-container[b-ei1nrkabfg] {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.compare-body[b-ei1nrkabfg] {
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+}
+
+.house-price[b-ei1nrkabfg] {
+    margin: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+}
+
+.addy[b-ei1nrkabfg] {
+    margin: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    color: black;
+    margin: 0px;
+}
+
+.compare-text[b-ei1nrkabfg] {
+    margin-right: 10px;
+    color: #0077c8;
+}
+
+.positive[b-ei1nrkabfg] {
+    color: #5cb85c;
+}
+
+.negative[b-ei1nrkabfg] {
+    color: #dc3545;
+}
+
+hr[b-ei1nrkabfg] {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.compare-heading[b-ei1nrkabfg] {
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    font-size: 50px;
+    color: black;
+    /* font-weight: bold; */
+    display: flex;
+    justify-content: center;
+}
+
+.listing-btn[b-ei1nrkabfg] {
+    border-radius: 10px;
+    margin: 15px;
+    background-image: linear-gradient(90deg, #0077c8, #0faef2);
+    background-clip: text;
+    color: white;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: 10px; */
+    align-self: center;
+    justify-content: center;
+    width: fit-content;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.listing-btn a[b-ei1nrkabfg] {
+    text-decoration: none;
+}

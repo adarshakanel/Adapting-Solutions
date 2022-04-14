@@ -28,16 +28,28 @@
                 <a class="nav-link" href="mortgage">Mortgage Calculator</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="homepage"><span class="fa fa-search"></span>
+                <a class="nav-link" href="SearchResults"><span class="fa fa-search"></span>
                     Search
 
                 </a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="homepage"><span class="fa fa-user"></span>
+                @if(!loggedin){
+                 <a @onclick="@((e) => { loggedin = true; } )" class="nav-link" href="homepage"><span class="fa fa-user"></span>
                     Login
                 </a>
+                } else {
+                 <a @onclick="@((e) => { loggedin = false; } )" class="nav-link" href="homepage"><span style="margin-right:10px"class="fa fa-user">John</span>
+                    Logout
+                </a>
+                }
+
             </li>
+
         </ul>
     </div>
 </nav>
+
+@code{
+    private Boolean loggedin {get; set;} = false;
+}

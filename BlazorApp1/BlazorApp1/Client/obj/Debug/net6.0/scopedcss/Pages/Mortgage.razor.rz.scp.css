@@ -1,0 +1,90 @@
+h1[b-45omqo451y] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom : 50px;
+}
+
+p[b-45omqo451y] {
+    font-family: Inria Serif;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p1[b-45omqo451y] {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+button[b-45omqo451y] {
+    background-color: white;
+    color: #0077c8;
+    border: 3px solid #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+
+}
+
+input[b-45omqo451y] {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}
+
+.split[b-45omqo451y] {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.flex-container[b-45omqo451y] {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+.flex-child[b-45omqo451y] {
+    flex: 1;
+    margin: auto;
+}  
+
+.flex-child:first-child[b-45omqo451y] {
+    margin-right: 20px;
+}
+
+section[b-45omqo451y] {
+    width: 500px;
+    border: 3px solid #0077c8;
+    padding: 30px;
+    background: #fff;
+    border-radius: 30px;
+}
+
+label[b-45omqo451y] {
+    color: #0077c8;
+    font-family: Inter;
+    font-style: italic;
+}
+
+label2[b-45omqo451y] {
+    color: black;
+    font-family: Inter;
+    font-style: italic;
+}
+
+select[b-45omqo451y] {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}

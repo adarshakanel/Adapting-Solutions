@@ -34,6 +34,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Price_Results.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpY2VfUmVzdWx0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/SearchResults.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUmVzdWx0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Search_Results2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoX1Jlc3VsdHMyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Sort_Search_Results.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29ydF9TZWFyY2hfUmVzdWx0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Tracking.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhY2tpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,9 +66,53 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-o2oy5e49cx
 
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Compare.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFyZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ei1nrkabfg
+
 [C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Favourites.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmF2b3VyaXRlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-f6b5nx1ign
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Homepage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZXBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-83q1ve13nz
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Mortgage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9ydGdhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-45omqo451y
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlEZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7o602krxmp
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyDetail1.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlEZXRhaWwxLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-3mf9nsvmqb
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyDetail2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlEZXRhaWwyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-61zcnbflkw
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyDetail3.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlEZXRhaWwzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-2pfn697ydx
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyDetail4.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlEZXRhaWw0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-wz9r9html3
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyDetail5.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlEZXRhaWw1LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ttk8eux4xi
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyDetail6.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlEZXRhaWw2LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-3oyuv0bz49
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyMortgage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlNb3J0Z2FnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-oxsi4wems3
 
 [C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/TrackedListings.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhY2tlZExpc3RpbmdzLnJhem9y

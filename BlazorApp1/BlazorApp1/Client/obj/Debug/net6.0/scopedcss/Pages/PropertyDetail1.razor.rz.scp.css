@@ -1,0 +1,35 @@
+body[b-3mf9nsvmqb] {
+}
+
+.butt[b-3mf9nsvmqb] {
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #0076C6 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}
+
+.butt2[b-3mf9nsvmqb] {
+    height: 60px;
+    width: 150px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textColor[b-3mf9nsvmqb] {
+    color: #0076C6;
+}
+
+.line[b-3mf9nsvmqb] {
+    border: 5px solid #0076C6;
+    border-radius: 5px;
+    width: 15% !important;
+}
+
+img[b-3mf9nsvmqb] {
+    animation-delay: 2s;
+}

@@ -77,7 +77,12 @@
                         <ul class="house-details">
                             <li class="with-icon">
                                 <p class="item-heading">Address:</p> <p>123 Earlgray Street SW</p>
-                                <h3 class="bi bi-heart heart"></h3>
+                                                                @if (!change)
+                                {
+                                    <h3 @onclick="@((e) => { change = true; })" class="bi bi-heart heart"></h3>
+                                }
+                                else
+                                { <h3 @onclick="@((e) => { change = false; })" class="bi bi-heart-fill heart heart-red"></h3>}
                             </li>
                             <li><p class="item-heading">Square foot:</p> <p>1650</p></li>
                             <li><p class="item-heading">Bedroom:</p> <p>3</p></li>
@@ -100,7 +105,12 @@
                         <ul class="house-details">
                             <li class="with-icon">
                                 <p class="item-heading">Address:</p> <p>123 Smith St NW</p>
-                                <h3 class="bi bi-heart heart"></h3>
+                                                                @if (!change1)
+                                {
+                                    <h3 @onclick="@((e) => { change1 = true; })" class="bi bi-heart heart"></h3>
+                                }
+                                else
+                                { <h3 @onclick="@((e) => { change1 = false; })" class="bi bi-heart-fill heart heart-red"></h3>}
                             </li>
                             <li><p class="item-heading">Square foot:</p> <p>2500</p></li>
                             <li><p class="item-heading">Bedroom:</p> <p>4</p></li>
@@ -124,7 +134,12 @@
                         <ul class="house-details">
                             <li class="with-icon">
                                 <p class="item-heading">Address:</p> <p>123 Smith St NW</p>
-                                <h3 class="bi bi-heart heart"></h3>
+                                                                @if (!change2)
+                                {
+                                    <h3 @onclick="@((e) => { change2 = true; })" class="bi bi-heart heart"></h3>
+                                }
+                                else
+                                { <h3 @onclick="@((e) => { change2 = false; })" class="bi bi-heart-fill heart heart-red"></h3>}
                             </li>
                             <li><p class="item-heading">Square foot:</p> <p>2500</p></li>
                             <li><p class="item-heading">Bedroom:</p> <p>4</p></li>
@@ -159,7 +174,12 @@
                         <ul class="house-details">
                             <li class="with-icon">
                                 <p class="item-heading">Address:</p> <p>123 Smith St NW</p>
-                                <h3 class="bi bi-heart heart"></h3>
+                                                               @if (!change3)
+                                {
+                                    <h3 @onclick="@((e) => { change3 = true; })" class="bi bi-heart heart"></h3>
+                                }
+                                else
+                                { <h3 @onclick="@((e) => { change3 = false; })" class="bi bi-heart-fill heart heart-red"></h3>}
                             </li>
                             <li><p class="item-heading">Square foot:</p> <p>2500</p></li>
                             <li><p class="item-heading">Bedroom:</p> <p>4</p></li>
@@ -182,7 +202,12 @@
                         <ul class="house-details">
                             <li class="with-icon">
                                 <p class="item-heading">Address:</p> <p>123 Smith St NW</p>
-                                <h3 class="bi bi-heart heart"></h3>
+                                @if (!change4)
+                                {
+                                    <h3 @onclick="@((e) => { change4 = true; })" class="bi bi-heart heart"></h3>
+                                }
+                                else
+                                { <h3 @onclick="@((e) => { change4 = false; })" class="bi bi-heart-fill heart heart-red"></h3>}
                             </li>
                             <li><p class="item-heading">Square foot:</p> <p>2500</p></li>
                             <li><p class="item-heading">Bedroom:</p> <p>4</p></li>
@@ -201,4 +226,10 @@
 
 @code {
 
-}
+    private Boolean change { get; set; } = false;
+    private Boolean change1 { get; set; } = false;
+    private Boolean change2 { get; set; } = false;
+    private Boolean change3 { get; set; } = false;
+    private Boolean change4 { get; set; } = false;
+
+    }

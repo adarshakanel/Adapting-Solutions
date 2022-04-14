@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.heart-red {
+    color: #dc3545;
+}
+
 .work-body {
     background-color: white;
     display: flex;
