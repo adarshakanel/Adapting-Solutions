@@ -839,3 +839,5 @@ C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\
 C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\scopedcss\Pages\PropertyDetail4.razor.rz.scp.css
 C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\scopedcss\Pages\PropertyDetail5.razor.rz.scp.css
 C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\scopedcss\Pages\PropertyDetail6.razor.rz.scp.css
+C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\scopedcss\Pages\Login.razor.rz.scp.css
+C:\Users\jessi\Documents\GitHub\Adapting-Solutions\BlazorApp1\BlazorApp1\Client\obj\Debug\net6.0\scopedcss\Pages\Signup.razor.rz.scp.css

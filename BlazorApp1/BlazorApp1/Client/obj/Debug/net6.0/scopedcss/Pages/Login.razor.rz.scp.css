@@ -1,0 +1,92 @@
+*[b-guujy5taiz] {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.log-body[b-guujy5taiz] {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* formatting the image to fit the container and stay centered */
+
+.log-content[b-guujy5taiz] {
+    border: solid 2.5px black;
+    border-radius: 15px;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-heading[b-guujy5taiz] {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.sign-sub-heading[b-guujy5taiz] {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+.input-container[b-guujy5taiz] {
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box[b-guujy5taiz] {
+    width: 80%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+    .input-box .text-area[b-guujy5taiz] {
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #f7f2f8;
+        width: 100%;
+        height: 40px;
+    }
+
+.details[b-guujy5taiz] {
+    align-self: flex-start;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.signup-btn[b-guujy5taiz] {
+    margin: 15px;
+    background-image: linear-gradient(90deg, #0077c8, #0faef2);
+    background-clip: text;
+    color: white;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    align-self: center;
+    width: 100px;
+    height: 30px;
+}

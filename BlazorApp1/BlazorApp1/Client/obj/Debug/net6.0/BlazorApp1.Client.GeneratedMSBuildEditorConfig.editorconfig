@@ -78,6 +78,10 @@ build_metadata.AdditionalFiles.CssScope = b-f6b5nx1ign
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZXBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-83q1ve13nz
 
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-guujy5taiz
+
 [C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Mortgage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9ydGdhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-45omqo451y
@@ -113,6 +117,10 @@ build_metadata.AdditionalFiles.CssScope = b-3oyuv0bz49
 [C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/PropertyMortgage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGVydHlNb3J0Z2FnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-oxsi4wems3
+
+[C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/Signup.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-o3imsj7m4f
 
 [C:/Users/jessi/Documents/GitHub/Adapting-Solutions/BlazorApp1/BlazorApp1/Client/Pages/TrackedListings.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhY2tlZExpc3RpbmdzLnJhem9y
