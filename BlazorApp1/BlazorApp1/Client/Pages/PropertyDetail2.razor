@@ -1,0 +1,310 @@
+﻿@page "/property2"
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+<PageTitle>Property Detail</PageTitle>
+
+<div  class="d-flex flex-column align-items-center">
+
+    <div class="d-flex justify-content-center" style="width:100%">
+
+        <div style="min-width:40%; height:550px; min-height:20%; width:40%; position:relative">
+            <img style="width:100%; height:100%; background-size:contain" src=@getImage()[0]/>
+            <!--https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500-->
+            <i class="bi bi-caret-left" style="position:absolute; color:white; left:0%; top:40%; font-size:2vw; cursor:pointer" @onclick="nextImage"></i>
+        </div>
+         <div style="min-width:40%;height:550px; min-height:20%; width:40%; position:relative">
+            <img style="width:100%; height:100%; background-size:contain" src=@getImage()[1]/>
+            <!--https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?cs=srgb&dl=pexels-binyamin-mellish-186077.jpg&fm=jpg-->
+            <i class="bi bi-caret-right" style="position:absolute; color:white; right:0%; top:40%; font-size:2vw;cursor:pointer" @onclick="previousImage"></i>
+        </div>
+    
+    </div>
+
+
+    <div class="pt-4 pb-4 d-flex justify-content-center" style="background-color: lightgrey; width:80%" >
+        <div class="butt btn btn-primary d-flex align-items-center justify-content-center" @onclick="saveButtonClick">
+            <div>
+                <i class="bi bi-bookmark-heart-fill me-1" style=@saveButton ></i>
+            </div>
+            
+            <div>
+                Save
+            </div>
+        </div>
+        
+
+        <a href="#realtor">
+            <div class="butt btn btn-primary d-flex justify-content-center align-items-center">        
+            SCHEDULE A <br /> VIEWING
+            </div>
+        </a>
+        <div class="butt btn btn-primary">MORTGAGE <br /> CALCULATOR</div>
+        <div class="butt btn btn-primary d-flex justify-content-center align-items-center">COMPARE</div>
+        <div class="butt btn btn-primary">NEARBY <br /> AMENITIES</div>
+        <div class=@buttonP @onclick="setisTrackingP">@getisTrackingP() <br /> PROPERTIES</div>
+        <div class=@buttonN @onclick="setisTrackingN">@getisTrackingN() <br /> NEIGHBOURHOOD</div>
+        <!--<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>-->
+
+    </div>
+
+    <div class="d-flex flex-column align-items-center mt-5" style="width:100%">
+        
+        <h1> Property Description</h1>
+        <div class="line mb-2 mt-3"> </div>
+
+    </div>
+
+    <div style="width:80%" class="d-flex justify-content-center">
+        <div style="width:100%" class="d-flex justify-content-around mt-4 mb-4" >
+            <div style="width:40%;">
+                <div class="d-flex"> <div class="textColor fw-bold pe-1">Price: </div> $310,000</div>
+                <!--<div class="d-flex"> <div class="textColor fw-bold pe-1">Price: </div> @price</div>-->
+                <div class="d-flex mt-2"><div class="textColor fw-bold pe-1">Location: </div> 358 Shannon Ave SW, Calgary AB</div>
+                <!--<div class="d-flex mt-2"><div class="textColor fw-bold pe-1">Location: </div> @address </div>-->
+                <div class="d-flex mt-2"><div class="textColor fw-bold  pe-1">Listing Date: </div> 2021-05-20</div>
+                <!--<div class="d-flex mt-2"><div class="textColor fw-bold  pe-1">Listing Date: </div> @listingDate </div>-->
+            </div>
+
+            <div style="width:60%;" class="d-flex justify-content-evenly" >
+
+                <!--<div class="mr-3 d-flex text-center flex-column" > @bedrooms <br /> <div class="textColor fw-bold">BEDROOMS</div> </div>-->
+                <div class="mr-3 d-flex text-center flex-column" >3 <br /> <div class="textColor fw-bold">BEDROOMS</div> </div>
+                <!--<div class="ml-3 mr-3 d-flex text-center flex-column" > @bathrooms <br /><div class="textColor fw-bold">BATHROOMS</div> </div>-->
+                <div class="ml-3 mr-3 d-flex text-center flex-column" >2 + 1 <br /><div class="textColor fw-bold">BATHROOMS</div> </div>
+                <!--<div class="ml-3 mr-3 d-flex text-center flex-column" > @sqFootage <br /><div class="textColor fw-bold">SQAUARE FEET</div> </div>-->
+                <div class="ml-3 mr-3 d-flex text-center flex-column" >1650 <br /><div class="textColor fw-bold">SQAUARE FEET</div> </div>
+                <!--<div class="ml-3 d-flex text-center flex-column" >@yearBuilt <br /> <div class="textColor fw-bold">YEAR BUILT</div> </div>-->
+                <div class="ml-3 d-flex text-center flex-column" >1997 <br /> <div class="textColor fw-bold">YEAR BUILT</div> </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div style="width:80%" class="mt-4 mb-4 d-flex flex-wrap card">
+      <div class="card-body p-4" style="background-color: lightgrey">
+       The living is easy in this impressive, generously proportioned contemporary residence with lake and ocean 
+       views, located within a level stroll to the sand and surf.   
+        </div>
+    </div>
+
+    <div style="width:100%" class="d-flex justify-content-center mt-4 mb-4">
+        <h1 style="background-color:#0076C6; padding-left:20px; padding-right:20px;" class="d-flex justify-content-center pt-4 pb-4 text-white">
+            SCHEDULE A VIEWING
+        </h1>
+    </div>
+
+    <div class="d-flex justify-content-evenly pt-4 pb-4" style="width:80%; background-color:lightgrey" id="realtor"> 
+
+        <div class="d-flex flex-column align-items-center" style="width:40%" >
+            <img style="width:350px; height:350px; background-size:contain" src="
+https://s3-us-west-2.amazonaws.com/rets-mls/advisors/header_images/000/000/445/tile/Barbara_0025_cropped.jpeg?1579306646"/>
+            <div class="d-flex flex-column align-items-center " > 
+                <h2>Anna Hosterg</h2>
+                <div>587-176-1528</div>
+                <div>anna@cirrealty.com</div>
+            </div>
+
+        </div>
+
+        <div class="d-flex flex-column" style="width:60%" >
+            <div class="d-flex flex-column align-items-center mt-2" style="width:100%; height:100%">
+                @if(!appointmentBooked)
+                {
+                    <form class="d-flex flex-column align-items-center" style="width:100%; height:100%">
+                        <input placeholder="Full Name*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%" @oninput="@((e) => {name=(String) e.Value;})" required />
+                        <input placeholder="email*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%" @oninput="@((e) => {email=(String) e.Value;})" required />
+                        <input placeholder="Meeting Day*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%"  @oninput="@((e) => {meetingDay=(String) e.Value;})" required/>
+                        <input placeholder="Meting Time*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%"   @oninput="@((e) => {meetingTime=(String) e.Value;})" required/>
+                        <input placeholder="Phone number*" class="mt-2 mb-2 pt-2 pb-2" style="width:80%" @oninput="@((e) => {phoneNo=(String) e.Value;})"  required/>
+                        <div type="submit" class="btn btn-primary pt-2 pb-2 mt-5" style="width:30%" @onclick="appointmentMade" >BOOK AN APPOINTMENT!</div>
+                    </form>
+
+                }
+                else
+                {
+                    <div class="d-flex flex-column text-center justify-content-center align-items-center mb-5 mr-3" style="height:100%; width:100%">
+                        <i class="bi bi-check-circle" style="color:forestgreen; font-size:3vw"></i>
+                        <h2 style="color:forestgreen"> A Viewing has been scheduled with Anna</h2>
+                        <h2>An email with the appointment details has been sent to <br> <span style="color:#0076C6">@email</span> 
+                        </h2>
+                    </div>
+
+                }
+
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center mt-4 mb-4" style="width:100%">
+        <div class="mt-4 d-flex flex-column align-items-center">
+            <h1 class="text-center">
+                ABOUT THE <br /> NEIGHBOURHOOD
+            </h1>
+            <div class="line mb-2 mt-3"> </div>
+
+            <div class="text-center mt-4 d-flex flex-wrap" style="width: 40%">
+                Earlgray is nestled in the awe-inspiring Rocky Mountains. 
+                Here, visitors can enjoy renowned arts and culture, exceptional cuisine, 
+                world-class accommodations and countless outdoor pursuits - all the
+                 makings for an extraordinary vacation experience.
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column align-items-center p-4" style="background-color:lightgrey; width:80%; height:100%">
+        <PropertyMortgage />
+
+    </div>
+
+    <div class="d-flex justify-content-center mt-4 mb-4" style="width:100%" id="amendities">
+        <div class="mt-4 d-flex flex-column align-items-center" style="width:100%">
+            <h1 class="text-center">
+                NEARBY <br /> AMENITIES
+            </h1>
+         <div class="line mb-2 mt-3"> </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center mb-5" style="width:100%">
+        <div class="d-flex justify-content-center mb-5" style="width:80%; margin-left:20%;  ">
+            <div class="d-flex flex-column align-items-center border-top" style="width:10%">
+                <img style="width:100%; height:25%; cursor:pointer" class="border" @onclick="() => setCurrentMap(0)"
+                src="https://media.istockphoto.com/vectors/search-icon-magnifying-glass-in-simple-design-search-vector-icon-for-vector-id1171564262?k=20&m=1171564262&s=170667a&w=0&h=u7m85LQWQYQnjd4zKzbxICRBNwoo3-4JhKME2Yrsl_0="/>
+                <img style="width:100%; height:25%; cursor:pointer" class="border" @onclick="() => setCurrentMap(1)"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNHS580-ZMnoIM6ekpR2VDvBCH-qW93AdI0A&usqp=CAU"/>
+                <img style="width:100%; height:25%; cursor:pointer" class="border" @onclick="() => setCurrentMap(2)"
+                src="https://t3.ftcdn.net/jpg/04/14/06/58/360_F_414065827_tTTiPrwO0N01xIXx3Q2KRqY3ZtxWgI6P.jpg"/>                   
+                <img style="width:100%; height:25%; cursor:pointer" class="border" @onclick="() => setCurrentMap(3)"
+                src="https://static.vecteezy.com/system/resources/previews/001/504/962/non_2x/shopping-cart-icon-free-vector.jpg"/>             
+            </div>
+            <div  style="position:relative">
+                <img style="width:80%; height: 100%" src="https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg"/>
+                    <i class="bi bi-geo-alt-fill" style="position:absolute; font-size:2vw; color:blueviolet; left: 40%; top:40%;"></i>
+                @for(int i = 0; i<@returnMap().Length; i++)
+                {
+                    <i class="bi bi-geo-alt-fill" style="position:absolute; font-size:2vw; color:red; @returnMap()[i]"></i>
+                }
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@code{
+    String price { get; set; }
+    String address { get; set; }
+    String listingDate { get; set; }
+    String bathrooms { get; set; }
+    String bedrooms { get; set; }
+    String sqFootage { get; set; }
+    String yearBuilt { get; set; }
+
+    public Boolean appointmentBooked {get;set;} = false;
+    String email {get;set;} = "";
+    String name {get;set;} = "";
+    String meetingDay {get;set;} = "";
+    String meetingTime {get;set;} = "";
+    String phoneNo {get;set;} = "";
+    Boolean isTrackingP = false;
+    Boolean isTrackingN = false;
+    String buttonP = "butt btn btn-primary";
+    String buttonN = "butt btn btn-primary";
+    Boolean buttonClicked = true;
+    static String img1 = "https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+    static String img2 = "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?cs=srgb&dl=pexels-binyamin-mellish-186077.jpg&fm=jpg";
+    static String img3 = "https://johnmccarterconstruction.com/wp-content/uploads/2021/11/Why-Bold-Dark-Colors-Are-a-Popular-Siding-Choice-01-745x410.jpg";
+    static String img4 = "https://1onge7131wfc3ruow71ing72-wpengine.netdna-ssl.com/wp-content/uploads/1970/01/minnesota.jpg";
+    static string[] imagesArray = new String[] { img1, img2, img3, img4 };
+    int currentMap = 0;
+    String[] schoolMap = new String[]{"left:5%; top: 10%", "left:60%;bottom: 20%"};
+    String[] transitMap = new String[]{"left:25%; top: 30%", "left:50%;bottom: 0%", "left:65%; top:45%"};
+    String[] shoppingMap = new String[]{"left:15%; top: 10%", "left:50%;bottom: 20%"};
+    String[] imageArray = new String[] { };
+    void setCurrentMap(int map)
+    {
+        currentMap = map;
+    }
+
+    void appointmentMade()
+    {
+        if(email!="" && name!="" && meetingDay!="" && meetingTime!="" && phoneNo!="")
+        {
+            appointmentBooked = true;
+        }
+    }
+
+    String[] returnMap()
+    {
+        if(currentMap == 1)
+        {
+            return schoolMap;
+        } else if (currentMap == 2)
+        {
+            return transitMap;
+        } else if (currentMap == 3)
+        {
+            return shoppingMap;
+        }else{
+            return new String[] { };
+        }
+    }
+
+    static int currentImage = imagesArray.Length;
+
+    void nextImage()
+    {
+        currentImage++;
+        buttonClicked = true;
+
+    }
+
+    void previousImage()
+    {
+        currentImage = (currentImage==0) ? imagesArray.Length-1 : currentImage-1;
+        Console.WriteLine(currentImage);
+        buttonClicked = true;
+    }
+
+    String[] getImage()
+    {
+        if (buttonClicked)
+        {
+            currentImage = currentImage % imagesArray.Length;
+            int nextIndex = (currentImage+1) % imagesArray.Length;
+            imageArray =  new String[] { imagesArray[currentImage], imagesArray[nextIndex] };
+            buttonClicked = false;
+            return new String[] { imagesArray[currentImage], imagesArray[nextIndex]};
+
+        }
+        return imageArray;
+
+    }
+
+    Boolean isSave = false;
+    String saveButton = "color:gray";
+    void setisTrackingP()
+    {
+        isTrackingP = !isTrackingP;
+        buttonP = isTrackingP ? "butt2 btn btn-success" : "butt btn btn-primary";
+
+    }    
+    String getisTrackingP()
+    {
+        return (!isTrackingP ? "TRACK" : "NOW TRACKING");
+    }  
+    void setisTrackingN()
+    {
+        isTrackingN = !isTrackingN;
+        buttonN = isTrackingN ? "butt2 btn btn-success" : "butt btn btn-primary";
+    } 
+    String getisTrackingN()
+    {
+        return (!isTrackingN ? "TRACK" : "NOW TRACKING");
+    }
+    void saveButtonClick()
+    {
+        isSave = !isSave;
+        saveButton = isSave ? "color:gray" : "color:red";
+    }
+
+}
