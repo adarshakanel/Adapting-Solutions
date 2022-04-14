@@ -2,6 +2,9 @@
     color: #0077c8;
     font-family: Inria Serif;
     font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom : 50px;
 }
 
 p {
@@ -45,6 +48,9 @@ input {
 
 .flex-container {
     display: flex;
+    margin: auto;
+    width: 90%;
+    height: 90%;
 }
 
 .flex-child {
