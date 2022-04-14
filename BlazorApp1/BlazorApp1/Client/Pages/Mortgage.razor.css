@@ -1,0 +1,84 @@
+﻿h1 {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: Inria Serif;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p1 {
+    color: #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+}
+
+button {
+    background-color: white;
+    color: #0077c8;
+    border: 3px solid #0077c8;
+    font-family: Inria Serif;
+    font-weight: bold;
+
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    margin: auto;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+section {
+    width: 500px;
+    border: 3px solid #0077c8;
+    padding: 30px;
+    background: #fff;
+    border-radius: 30px;
+}
+
+label {
+    color: #0077c8;
+    font-family: Inter;
+    font-style: italic;
+}
+
+label2 {
+    color: black;
+    font-family: Inter;
+    font-style: italic;
+}
+
+select {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Inria Serif;
+}
