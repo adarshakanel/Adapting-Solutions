@@ -7,33 +7,83 @@
 <div class="flex-container">
 
     <div class="flex-child left">
-        <form method="post">
+        <div>
             <fieldset>
                 <p>Please enter all the values below! Do not enter things such as '$', '%', or 'years'.</p>
 
                 <div>
                     <p1>Property Price</p1>
-                    <input type="text" id="pprice" placeholder="Dollar amount" @bind="@pprice" @oninput="@((e) => { pprice=(string)e.Value;})">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">$</span>
+                             </div>
+                            <input type="text" id="pprice" placeholder="Dollar amount" @bind="@pprice" @oninput="@((e) => { pprice=(string)e.Value;})">
+                        </div>
+                    @if(@pprice2 < 0)
+                    {
+                        <div class="text-danger">Please enter a valid Property Price</div>
+                    }else if(@pprice2 < @dpayment2)
+                    {
+                        <div class="text-danger">Property price cannot be lower than Down Payment</div>
+                    }
                     <br>
                 </div>
 
 
                 <div>
                     <p1>Down Payment</p1>
-                    <input type="text" name="dpayment" placeholder="Dollar amount" @bind="@dpayment" @oninput="@((e) => { dpayment=(string)e.Value;})">
+                        <div class="input-group mb-3">
+                             <div class="input-group-prepend">
+                                <span class="input-group-text">$</span>
+                             </div>
+                            <input type="text" name="dpayment" placeholder="Dollar amount" @bind="@dpayment" @oninput="@((e) => { dpayment=(string)e.Value;})">
+                        </div>
+                    @if(@dpayment2 < 0)
+                    {
+                        <div class="text-danger">Please enter a valid Down Payment</div>
+                    }
                     <br>
                 </div>
 
-                <p1>Annual Interest Rate</p1>
-                <input type="text" name="irate" placeholder="Percentage" @bind="@irate" @oninput="@((e) => { irate=(string)e.Value;})">
-                <br>
-
-                <p1>Mortgage Term(years)</p1>
-                <input type="text" name="mterm" placeholder="Years" @bind="@mterm" @oninput="@((e) => { mterm=(string)e.Value;})">
-                <br>
+                <div>
+                    <p1>Annual Interest Rate</p1>
+                        <div class="input-group mb-3">
+                            <input type="text" name="irate" placeholder="Percentage" @bind="@irate" @oninput="@((e) => { irate=(string)e.Value;})">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">%</span>
+                             </div>
+                        </div>
+                    @if(@irate2 < 0)
+                    {
+                        <div class="text-danger">Interest Rate cannot be less than 0%</div>
+                    }else if(@irate2 > 100)
+                    {
+                        <div class="text-danger">Interest Rate cannot be greater than 100%</div>                    
+                    }
+                    <br>
+                </div>
+                
+                
+                <div>
+                    <p1>Mortgage Term</p1>
+                        <div class="input-group mb-3">
+                            <input type="text" name="mterm" placeholder="Years" @bind="@mterm" @oninput="@((e) => { mterm=(string)e.Value;})">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Years</span>
+                             </div>
+                        </div>
+                        @if(@mterm2 < 0)
+                        {
+                        <div class="text-danger">Mortgage Term cannot be less than 0 Years</div>
+                        }else if(@mterm2 > 100)
+                        {
+                           <div class="text-danger">Mortgage Term cannot be greater than 100 Years</div> 
+                        }
+                    <br>
+                </div>
 
                 <p1>Payment Interval</p1>
-                <select id="pinterval" @bind="@pinterval" @oninput="@((e) => { pinterval=(string)e.Value;})">
+                <select id="pinterval" @bind="@pinterval" required @oninput="@((e) => { pinterval=(string)e.Value;})">
                     <option value="52">Weekly</option>
                     <option value="26">Bi-weekly</option>
                     <option value="12">Monthly</option>
@@ -41,7 +91,7 @@
                 <br>
 
             </fieldset>
-        </form>
+        </div>
     </div>
 
     <div class="flex-child right">
@@ -59,8 +109,17 @@
 
             <label>Total payment(including down payment):</label>
             <label2 role="status">@totalpay</label2><br><br><br>
-
-            <button class="btn btn-primary" @onclick="cbutton_Click">Calculate</button>
+            @if(@pprice.Length==0 || @irate.Length==0 || @mterm.Length==0 || @pinterval.Length==0 || @dpayment.Length==0)
+            {
+                <button class="btn btn-secondary" @onclick="((e)=>{inputBool=true;})" >Calculate</button>
+                if(@inputBool){
+                    <div class="text-danger">Please fill all the inputs before submitting!!</div>
+                }
+            }
+            else
+            {
+                  <button class="btn btn-primary" @onclick="cbutton_Click">Calculate</button>
+            }
         </section>
     </div>
 </div>
@@ -73,15 +132,15 @@
     private string intpay = "XXXXX.XX";
     private string totalpay = "XXXXXX.XX";
 
-    private static string pprice { get; set; } = " ";
+    private static string pprice { get; set; } = "";
     private static float pprice2 = 0;
-    private static string dpayment { get; set; } = " ";
+    private static string dpayment { get; set; } = "";
     private static float dpayment2 = 0;
-    private static string irate { get; set; } = " ";
+    private static string irate { get; set; } = "";
     private static float irate2 = 0;
-    private static string mterm { get; set; } = " ";
+    private static string mterm { get; set; } = "";
     private static float mterm2 = 0;
-    private static string pinterval { get; set; } = " ";
+    private static string pinterval { get; set; } = "";
     private static float pinterval2 = 0;
 
     private static float mortprin = 0;
@@ -90,26 +149,31 @@
     private static double monthtotal = 0;
     private static double tintpay = 0;
     private static double total = 0;
-
+    Boolean inputBool = false; 
     private void cbutton_Click()
     {
+
         pprice2 = float.Parse(pprice);
         dpayment2 = float.Parse(dpayment);
         irate2 = float.Parse(irate);
         mterm2 = float.Parse(mterm);
         pinterval2 = float.Parse(pinterval);
+        if(pprice2 >= 0 && dpayment2>=0 && pprice2 >= dpayment2 && irate2 >= 0 && irate2 <=100 && mterm2 >=0 && mterm2 <= 100 && pinterval2 != 0)
+        {
+            inputBool = false;
+            mortprin = pprice2 - dpayment2;
+            mirate = irate2 / 100 / pinterval2;
+            mmterm = mterm2 * pinterval2;
 
-        mortprin = pprice2 - dpayment2;
-        mirate = irate2 / 100 / pinterval2;
-        mmterm = mterm2 * pinterval2;
+            monthtotal = (mortprin * (mirate * Math.Pow((1 + mirate), mmterm))) / (Math.Pow((1 + mirate), mmterm) - 1);
+            tintpay = monthtotal * mmterm - mortprin;
+            total = monthtotal * mmterm + dpayment2;
 
-        monthtotal = (mortprin * (mirate * Math.Pow((1 + mirate), mmterm))) / (Math.Pow((1 + mirate), mmterm) - 1);
-        tintpay = monthtotal * mmterm - mortprin;
-        total = monthtotal * mmterm + dpayment2;
+            payint = "$" + monthtotal.ToString("n2");
+            countpay = mmterm.ToString("n2");
+            intpay = "$" + tintpay.ToString("n2");
+            totalpay = "$" + total.ToString("n2"); 
+        }
 
-        payint = "$" + monthtotal.ToString("n2");
-        countpay = mmterm.ToString("n2");
-        intpay = "$" + tintpay.ToString("n2");
-        totalpay = "$" + total.ToString("n2");
     }
 }
